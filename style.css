@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: Montserrat !important;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4070f4;
+  height: 100vh;
+}
+
+.main-animated-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px !important;
+  width: 500px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.css-box,
+.html-box,
+.js-box {
+  width: 100% !important;
+}
+
+.html-skill-upper,
+.css-skill-upper,
+.js-skill-upper {
+  height: 15px;
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #4070f4;
+}
+.css-skill-upper {
+  width: 60%;
+}
+
+.js-skill-upper {
+  width: 40%;
+}
+
+.html-skill-bootom,
+.css-skill-bootom,
+.js-skill-bootom {
+  height: 15px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(219, 219, 219);
+}
+
+.html-box,
+.css-box,
+.js-box {
+  position: relative;
+}
+
+.html-progress,
+.css-progress,
+.js-progress {
+  position: absolute;
+  top: 0%;
+  right: 18%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4070f4;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.css-progress {
+  left: 52%;
+}
+.js-progress{
+    left: 33%;
+}
